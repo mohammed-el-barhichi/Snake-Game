@@ -20,6 +20,7 @@ Position initiale du snake (□ est la tête du snake) :
  □
  O
  O
+ 
 A chaque déplacement le 1er carré se déplace de 20 pixels dans la direction de déplacement, les carrés suivant se plaçant là où était le carré précédent (attention, le snake ne peut pas reculer).
 
 Exemple. Position initiale du snake composé de 6 carrés (0 est la tête du snake) :
@@ -27,12 +28,14 @@ Exemple. Position initiale du snake composé de 6 carrés (0 est la tête du sna
   O□
   O
 OOO
+
 Déplacement vers le haut (de 20pixels) :
 
    □
   OO
   O
  OO
+ 
 Le jeu s'arrête si :
 
 le snake sort de l'écran
@@ -46,23 +49,27 @@ Exemple de grossissement du snake.
 Position initiale :
 
  OO□
+ 
 On veut faire augmenter la taille du snake de 2 carrés. On suppose également que le snake se déplace vers le haut.
 
 Après le 1er déplacement, le snake à grossi de 1 carré (X est le nouveau carré) :
 
    □
  XOO
+ 
 Après le 2ème déplacement, le snake a encore grossi de carré (X est le nouveau carré) :
 
    □
    O
  XOO
+ 
 Finalement, le snake se déplace normalement. Par exemple, s'il continue de se déplacer vers le haut :
 
    □
    O
    O
   OO
+  
 etc...
 
 Bonus/Malus/vies
