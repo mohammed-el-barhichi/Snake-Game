@@ -4,7 +4,7 @@ In this project, I developed a snake game utilizing Object-Oriented Programming 
 Given the next instructions, I developed the code:
 
 
-#Instructions:
+##Instructions:
 
 Création d'un jeu du snake
 
